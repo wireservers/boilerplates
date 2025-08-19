@@ -1,7 +1,12 @@
 {
 	"dependencies": {
+		"@azure/msal-browser": "^4.20.0",
+		"@azure/msal-react": "^3.0.18",
+		"axios": "^1.11.0",
 		"cors": "^2.8.5",
 		"dotenv": "^17.2.1",
+		"expo-auth-session": "^6.2.1",
+		"expo-secure-store": "^14.2.3",
 		"express": "^5.1.0",
 		"helmet": "^8.1.0",
 		"jose": "^6.0.12",
