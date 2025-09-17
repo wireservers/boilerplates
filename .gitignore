@@ -37,7 +37,3 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
-Azure Entra and Secrets
-/MERN/mernn-web-ios-android-template
-/ngrx-basic
