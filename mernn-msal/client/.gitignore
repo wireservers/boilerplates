@@ -31,11 +31,11 @@ yarn-error.*
 *.pem
 
 # local env files
-.env
-.env.prod
-.env.local
+.env*.local
 
 # typescript
 *.tsbuildinfo
-/mernn-msal/api/.env
-/.codacy
+
+# generated native folders
+/ios
+/android
