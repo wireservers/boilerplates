@@ -1,0 +1,8 @@
+{
+  "amazonQ.allowFeatureDevelopmentToRunCodeAndTests": {
+    "enabled": true,
+    "description": "Allow feature development to run code and tests"
+  },
+  
+  "amazonQ.telemetry": false
+}
