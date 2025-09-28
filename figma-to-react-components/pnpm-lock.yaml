@@ -18,6 +18,9 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
+      '@storybook/react':
+        specifier: ^9.1.8
+        version: 9.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.14)(typescript@5.9.2)
       '@storybook/react-vite':
         specifier: ^8.3.5
         version: 8.6.14(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.52.3)(storybook@8.6.14)(typescript@5.9.2)(vite@5.4.20)
@@ -618,6 +621,13 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
       storybook: ^8.6.14
 
+  '@storybook/react-dom-shim@9.1.8':
+    resolution: {integrity: sha512-OepccjVZh/KQugTH8/RL2CIyf1g5Lwc5ESC8x8BH3iuYc82WMQBwMJzRI5EofQdirau63NGrqkWCgQASoVreEA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
+      storybook: ^9.1.8
+
   '@storybook/react-vite@8.6.14':
     resolution: {integrity: sha512-FZU0xMPxa4/TO87FgcWwappOxLBHZV5HSRK5K+2bJD7rFJAoNorbHvB4Q1zvIAk7eCMjkr2GPCPHx9PRB9vJFg==}
     engines: {node: '>=18.0.0'}
@@ -643,6 +653,18 @@ packages:
     peerDependenciesMeta:
       '@storybook/test':
         optional: true
+      typescript:
+        optional: true
+
+  '@storybook/react@9.1.8':
+    resolution: {integrity: sha512-EULkwHroJ4IDYcjIBj9VpGhaZ9E5b8LI84hlfBkJ9rnK44a/GrK1yFRIusukO58qTJSh2Y7zfAFKNuiaWh3Sfw==}
+    engines: {node: '>=20.0.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
+      storybook: ^9.1.8
+      typescript: '>= 4.9.x'
+    peerDependenciesMeta:
       typescript:
         optional: true
 
@@ -1714,6 +1736,12 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.6.14
 
+  '@storybook/react-dom-shim@9.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.14)':
+    dependencies:
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      storybook: 8.6.14
+
   '@storybook/react-vite@8.6.14(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.52.3)(storybook@8.6.14)(typescript@5.9.2)(vite@5.4.20)':
     dependencies:
       '@joshwooding/vite-plugin-react-docgen-typescript': 0.5.0(typescript@5.9.2)(vite@5.4.20)
@@ -1742,6 +1770,16 @@ snapshots:
       '@storybook/preview-api': 8.6.14(storybook@8.6.14)
       '@storybook/react-dom-shim': 8.6.14(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.14)
       '@storybook/theming': 8.6.14(storybook@8.6.14)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      storybook: 8.6.14
+    optionalDependencies:
+      typescript: 5.9.2
+
+  '@storybook/react@9.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.14)(typescript@5.9.2)':
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@storybook/react-dom-shim': 9.1.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.6.14)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       storybook: 8.6.14
