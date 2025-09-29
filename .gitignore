@@ -39,3 +39,5 @@ yarn-error.*
 *.tsbuildinfo
 /mernn-msal/api/.env
 /.codacy
+/nivo-complex-viz-suite
+/nivo-perf-lab
