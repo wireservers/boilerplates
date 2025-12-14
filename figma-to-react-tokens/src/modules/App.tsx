@@ -1,1 +1,0 @@
-export function App() { return <div className='container'><h1>Figma → Tokens</h1><div className='card'>Run Storybook to view components.</div></div> }
