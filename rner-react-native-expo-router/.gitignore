@@ -31,16 +31,14 @@ yarn-error.*
 *.pem
 
 # local env files
-.env
-.env.prod
-.env.local
+.env*.local
 
 # typescript
 *.tsbuildinfo
-/mernn-msal/api/.env
-/.codacy
-/nivo-complex-viz-suite
-/nivo-perf-lab
-pnpm-lock.yaml
+
+# generated native folders
+/ios
+/android
+/node_modules
 /.vscode
-\.vscode/
+/pnpm-lock.yaml
